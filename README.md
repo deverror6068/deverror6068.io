@@ -1,1 +1,5 @@
-# deverror6068.io  Site de présentation de A.Pham
+#  Site de présentation de A.Pham
+#  Résumé de mes compétences 
+#  Lien pour me contacter
+
+
