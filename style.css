@@ -281,20 +281,6 @@ body{
   
 /*transition: 0.2s;*/
 
-@media only screen and (min-width: 1500px) and (max-width: 4000px){
-#skilltext{
-        
-    /*  margin: -5.5rem 31rem
- } */
- margin: -2rem 31rem;
- width: 200%;
-
-}
-
-.pre-content{
-    overflow: scroll;
-}
-}
 
 
 
@@ -587,7 +573,20 @@ margin: 0rem 0rem ;
     body{
         overflow-x: hidden;
     }
+
+    #link{
+        color: rgb(227, 227, 230);
+    }
     
+    .logo{
+        height: 100px;
+        
+         width: 200px;
+    }
+
+    header{
+
+    }
 
 
 
