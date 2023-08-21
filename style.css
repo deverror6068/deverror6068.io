@@ -24,7 +24,7 @@ position: fixed;
     text-align: center;
     backdrop-filter: blur(5px);
 
-    height: 40rem;
+   
 }
 
 
@@ -77,10 +77,10 @@ body{
 }
 
 .post-content{
-    top: 185%;
     position:absolute;
     border: 5px solid black ;
     width: 100%;
+    
 }
 
 
@@ -233,6 +233,26 @@ body{
 
    
 }
+#CV{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bolder;
+}
+
+
+#link{
+    color: grey;
+    text-decoration: none;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#link:hover{
+    color: white;
+    transition: 0.2;
+}
+
+.licontent{
+    font-family: 'Exo 2', sans-serif;
+}
 [name="2"]{
    visibility: hidden;
 }
@@ -251,11 +271,12 @@ body{
 
 
  #imgpresentation {
-    left: -40%;
+   
     position: relative;
  }
 
 
+ 
 /*visibility: hidden;
   
 /*transition: 0.2s;*/
@@ -408,45 +429,58 @@ margin: 0rem 0rem ;
 
     #first-quote{
         margin: 0rem -1rem;
+        width: 25%;
       
       }
 
     #second-quote{
        scale: 0.7;
-       width: 90%;
-       margin: 0rem 0rem;
-
+       width: 107%;
+       margin: -1rem -4rem;
      }
     #third-quote{
         scale: 0.7;
-        width: 90%;
-        margin: 0rem 0rem;
+        width: 107%;
+        margin: -1rem -4rem;
      
      }
      #fourth-quote{
          
         scale: 0.7;
-        width: 90%;
-        margin: 0rem 0rem;
+        width: 107%;
+        margin: -1rem -4rem;
      
      }
      
      #fifth-quote{
          
         scale: 0.7;
-        width: 90%;
-        margin: 0rem 0rem;
+        width: 107%;
+        margin: -1rem -4rem;
      }
      #sixth-quote{
          
         scale: 0.7;
-        width: 90%;
-        margin: 0rem 0rem;
+        width: 107%;
+        margin: -1rem -4rem;
      
      }
 
+
+     #imgpresentation{
+        
+        height: 250px;
+        width: 200px;
+       
+        
+     }
+
      .contentmenu{
-        margin: -7rem -6rem;
+       /*  margin: -7rem -10rem; */
+       left: 80%;
+        width: 30%;
+        
+    }
         
      }
     
@@ -458,9 +492,33 @@ margin: 0rem 0rem ;
      #skilltext{
         font-size: large;
      }
-    
 
-}
+     .content{
+        height: 30%;
+     }
+
+     .post-content{
+        top: 200%;
+        height: 40%;
+        background-color: black;
+        opacity: 0.7;
+     }
+
+     #link{
+        font-size: small;
+     }
+    #inprogress{
+        color: rgb(227, 227, 230);font-family: 'Raleway', sans-serif;
+    }
+    #inprogress:hover{
+        translate: 0% -150%;
+        width: 50%;
+        transition: 1s;
+    }
+     
+     
+
+
 
 @media only screen and (min-height: 1080px) and (max-height: 1300px){
 
@@ -492,5 +550,46 @@ margin: 0rem 0rem ;
      
     
     }
+    #imgpresentation{
+        left: -40%;
+    }
+
+    .content{
+        height: 40rem;
+    }
+    
+    .post-content{
+        top: 185%;
+      
+    }
+
+}
+
+@media only screen and (min-height: 1301px) and (max-height: 1800px){
+
+    .post-content{
+        top:250%;
+       
+        
+
+    }
+    .content{
+        height:40rem;
+        top: 150% ;
+    } 
+
+
+    .pre-content{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+  
+    body{
+        overflow-x: hidden;
+    }
+    
+
+
+
 
 }
