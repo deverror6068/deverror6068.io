@@ -1,5 +1,5 @@
 header{
-border:5px solid black;
+
 position: relative;
 
 margin: top;
@@ -12,7 +12,7 @@ position: fixed;
 .main{
     
     display: block;
-    border: 2px solid black;
+
     height: 95rem;
     width: 100%;
    
@@ -25,6 +25,11 @@ position: fixed;
     backdrop-filter: blur(5px);
 
    
+}
+
+.language{
+    border-radius: 20px;
+    font-family: "Lexend Deca", sans-serif;
 }
 
 
@@ -48,7 +53,8 @@ body{
 
 
 .content{
-    border: 2px black solid;
+    border: 0.5px black solid;
+    color: rgb(195 207 195);
 }
 
 #imgpresentation{
@@ -67,7 +73,7 @@ body{
 
 .pre-content{
     position: fixed;
-    top:13%;
+    top:10%;
     height: 65rem;
     width: 100%;
     background-image: url(./IMG/code-bg.jpg);
@@ -106,7 +112,7 @@ body{
 
 
 #second-quote{
-    font-family: 'Raleway', sans-serif;
+   
     margin: 0rem 15rem;
     padding: 3rem;
     height: 2rem;
@@ -180,8 +186,10 @@ body{
 }
 
 
+/* */
+
 #third-quote{
-    font-family: 'Raleway', sans-serif;
+   
     margin: 0rem 20rem;
     padding: 3rem;
     height: 2rem;
@@ -190,7 +198,7 @@ body{
 }
 
 #fourth-quote{
-    font-family: 'Raleway', sans-serif;
+   
     margin: 0rem 25rem;
     padding: 3rem;
     height: 2rem;
@@ -198,7 +206,7 @@ body{
     backdrop-filter: blur(20px);
 }
 #fifth-quote{
-    font-family: 'Raleway', sans-serif;
+   
     margin: 0rem 30rem;
     padding: 3rem;
     height: 2rem;
@@ -206,7 +214,7 @@ body{
     backdrop-filter: blur(20px);
 }
 #sixth-quote{
-    font-family: 'Raleway', sans-serif;
+   
     margin: 0rem 35rem;
      padding: 3rem;
      height: 2rem;
@@ -215,15 +223,17 @@ body{
 }
 
 #skilltext{
-    margin: -1.5rem 31rem;
-    color: rgb(36, 108, 216);
-    font-weight: 1000;
+    margin: -2.5rem 31rem;
+    color: rgb(195 207 195);
+    font-weight: 100;
+    font-size: 165%;
+    margin-left: 45rem;
 }
 
 #Titlesubject{
     margin: -0.5rem;
     width: 2%;
-    padding-left: 2rem;
+    padding-left: 4rem;
     color: white;
    
 }
@@ -300,8 +310,13 @@ body{
 }
 
 .logo{
-  height: 10rem;
+
   width: 15rem;
+
+  height: 10.5%;
+        /* width: 35%; */
+        /* display: flex; */
+        position: fixed;
 }
 header{
     width: 100%;
@@ -343,8 +358,11 @@ margin: 0rem 0rem ;
 
 
     .logo{
-        height: 10rem;
+    
         width: 15rem;
+        height: 10.5%;
+        position: fixed;
+
       }
 
     .intro{
@@ -410,7 +428,8 @@ margin: 0rem 0rem ;
     }
 
     .intro{
-        font-size: small;
+        font-size: medium;
+    }
     }
 
     #first-quote{
@@ -462,23 +481,20 @@ margin: 0rem 0rem ;
      }
 
      .contentmenu{
-       /*  margin: -7rem -10rem; */
+         margin: -5.5rem -10rem; 
        left: 80%;
         width: 30%;
         
     }
         
-     }
+     
     
 
      .pre-content{
         top: 8%;
      }
     
-     #skilltext{
-        font-size: large;
-     }
-
+  
      .content{
         height: 30%;
      }
